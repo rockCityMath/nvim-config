@@ -41,6 +41,14 @@ use {
   use("nvim-treesitter/nvim-treesitter-context");
   use("tmsvg/pear-tree")
   use('ray-x/lsp_signature.nvim')
+  use {
+  'nvim-tree/nvim-tree.lua',
+  config = function()
+    require("nvim-tree").setup {}
+  end
+    }
+  use('nvim-tree/nvim-web-devicons')
+  use ('tpope/vim-commentary')
 
   -- LSP Zero
   use {

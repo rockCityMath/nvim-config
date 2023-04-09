@@ -5,7 +5,6 @@ lsp.preset("recommended")
 lsp.ensure_installed({
   'tsserver',
   'rust_analyzer',
-  'pyright'
 })
 
 -- Fix Undefined global 'vim'
@@ -19,6 +18,13 @@ lsp.configure('lua-language-server', {
     }
 })
 
+lsp.configure('pylsp', {
+on_attach=on_attach_vim,
+    settings = { pylsp = { plugins = {
+     pycodestyle =  { enabled = false },
+     pylint =  { enabled = false }
+ } } }
+})
 
 local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}
