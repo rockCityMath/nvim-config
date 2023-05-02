@@ -34,6 +34,7 @@ use {
 
 
   -- Small Plugins
+  use('stevearc/aerial.nvim')
   use('jose-elias-alvarez/null-ls.nvim')
   use('windwp/nvim-autopairs')
   use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
