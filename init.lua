@@ -1,12 +1,12 @@
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
-
 vim.cmd.colorscheme("rose-pine")
 
 require("rockcity")
 
 print("---- NVIM Shortcuts -----")
+print("of - open float (to see err)")
 print("yy - Copy whole line")
 print("p - Paste line")
 print("Ctrl-W - Delete word")

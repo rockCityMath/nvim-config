@@ -34,6 +34,8 @@ use {
 
 
   -- Small Plugins
+  use('jose-elias-alvarez/null-ls.nvim')
+  use('windwp/nvim-autopairs')
   use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('theprimeagen/harpoon')
   use('mbbill/undotree')
