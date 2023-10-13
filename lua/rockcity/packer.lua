@@ -20,9 +20,16 @@ return require('packer').startup(function(use)
   use('sharkdp/fd')
 
   -- Rose Pine Theme
-  use({ 'rose-pine/neovim', as = 'rose-pine' })
-  vim.cmd('colorscheme rose-pine')
-use {
+  -- use({ 'rose-pine/neovim', as = 'rose-pine' })
+  -- vim.cmd('colorscheme rose-pine')
+
+  -- use {'nyoom-engineering/oxocarbon.nvim'}
+  -- use {'B4mbus/oxocarbon-lua.nvim'}
+  use { "ellisonleao/gruvbox.nvim" }
+  -- use {'alexanderbluhm/black.nvim', as = 'black'}
+
+
+  use {
   "folke/which-key.nvim",
   config = function()
     vim.o.timeout = true

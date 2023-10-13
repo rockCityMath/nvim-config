@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Zachary.Carpenter\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["gruvbox.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Zachary.Carpenter\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
   harpoon = {
     loaded = true,
     path = "C:\\Users\\Zachary.Carpenter\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",
@@ -201,11 +206,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\Zachary.Carpenter\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["rose-pine"] = {
-    loaded = true,
-    path = "C:\\Users\\Zachary.Carpenter\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rose-pine",
-    url = "https://github.com/rose-pine/neovim"
-  },
   ["symbols-outline.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Zachary.Carpenter\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\symbols-outline.nvim",
@@ -245,14 +245,14 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: nvim-lspconfig
-time([[Config for nvim-lspconfig]], true)
-try_loadstring("\27LJ\2\n‘\1\0\0\6\0\t\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0009\0\3\0005\2\a\0006\3\0\0'\5\4\0B\3\2\0029\3\5\3'\5\6\0B\3\2\2=\3\b\2B\0\2\1K\0\1\0\rroot_dir\1\0\0\t.git\17root_pattern\19lspconfig.util\nsetup\rtsserver\14lspconfig\frequire\0", "config", "nvim-lspconfig")
-time([[Config for nvim-lspconfig]], false)
 -- Config for: which-key.nvim
 time([[Config for which-key.nvim]], true)
 try_loadstring("\27LJ\2\nt\0\0\3\0\a\0\0156\0\0\0009\0\1\0+\1\2\0=\1\2\0006\0\0\0009\0\1\0)\1,\1=\1\3\0006\0\4\0'\2\5\0B\0\2\0029\0\6\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14which-key\frequire\15timeoutlen\ftimeout\6o\bvim\0", "config", "which-key.nvim")
 time([[Config for which-key.nvim]], false)
+-- Config for: nvim-lspconfig
+time([[Config for nvim-lspconfig]], true)
+try_loadstring("\27LJ\2\n‘\1\0\0\6\0\t\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0009\0\3\0005\2\a\0006\3\0\0'\5\4\0B\3\2\0029\3\5\3'\5\6\0B\3\2\2=\3\b\2B\0\2\1K\0\1\0\rroot_dir\1\0\0\t.git\17root_pattern\19lspconfig.util\nsetup\rtsserver\14lspconfig\frequire\0", "config", "nvim-lspconfig")
+time([[Config for nvim-lspconfig]], false)
 -- Config for: nvim-tree.lua
 time([[Config for nvim-tree.lua]], true)
 try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14nvim-tree\frequire\0", "config", "nvim-tree.lua")
